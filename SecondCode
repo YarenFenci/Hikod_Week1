@@ -1,0 +1,23 @@
+#Second Code
+
+age_ali = 30
+age_ayse = 25
+age_fatma = 35
+
+# Comparisons
+ali_older_than_ayse = age_ali > age_ayse
+ayse_older_than_fatma = age_ayse > age_fatma
+fatma_older_than_ali = age_fatma > age_ali
+
+
+ali_older_than_ayse_and_fatma = age_ali > age_ayse and age_ali > age_fatma
+ayse_younger_than_ali_or_fatma = age_ayse < age_ali or age_ayse < age_fatma
+fatma_not_same_age_as_ali = age_fatma != age_ali
+
+print(f"Ali, Ayşe'den büyük mü? {ali_older_than_ayse}")
+print(f"Ayşe, Fatma'dan büyük mü? {ayse_older_than_fatma}")
+print(f"Fatma, Ali'den büyük mü? {fatma_older_than_ali}")
+
+print(f"Ali, Ayşe ve Fatma'dan büyük mü? {ali_older_than_ayse_and_fatma}")
+print(f"Ayşe, Ali veya Fatma'dan küçük mü? {ayse_younger_than_ali_or_fatma}")
+print(f"Fatma'nın yaşı Ali ile aynı değil mi? {fatma_not_same_age_as_ali}")
