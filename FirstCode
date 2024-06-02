@@ -1,0 +1,41 @@
+#Fırst Code
+# Integer to float
+a = 10
+a_float = float(a)
+print(a_float)  # Output: 10.0
+
+# Float to integer
+b = 10.5
+b_int = int(b)
+print(b_int)  # Output: 10
+
+# Integer to string
+c = 10
+c_str = str(c)
+print(c_str)  # Output: '10'
+
+# String to integer
+d = "20"
+d_int = int(d)
+print(d_int)  # Output: 20
+
+# String to float
+e = "10.5"
+e_float = float(e)
+print(e_float)  # Output: 10.5
+
+# List to tuple
+f = [1, 2, 3]
+f_tuple = tuple(f)
+print(f_tuple)  # Output: (1, 2, 3)
+
+# Tuple to list
+g = (4, 5, 6)
+g_list = list(g)
+print(g_list)  # Output: [4, 5, 6]
+
+# List of tuples to dictionary
+h = [("key1", "value1"), ("key2", "value2")]
+h_dict = dict(h)
+print(h_dict)  # Output: {'key1': 'value1', 'key2': 'value2'}
+
