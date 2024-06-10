@@ -1,0 +1,16 @@
+# Function to collect and print user information
+def collect_and_print_user_info():
+    #user input
+    name = input("Please enter your name: ")
+    age = input("Please enter your age: ")
+    city = input("Please enter your city: ")
+    profession = input("Please enter your profession: ")
+
+    print("\nUser Information:")
+    print(f"Name: {name}")
+    print(f"Age: {age}")
+    print(f"City: {city}")
+    print(f"Profession: {profession}")
+
+# Call the function
+collect_and_print_user_info()
