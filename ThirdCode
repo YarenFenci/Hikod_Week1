@@ -1,0 +1,25 @@
+# arithmetic operations
+def arithmetic_operations(a, b):
+    addition = a + b
+    subtraction = a - b
+    multiplication = a * b
+    division = a / b if b != 0 else "undefined (division by zero)"
+
+    return addition, subtraction, multiplication, division
+
+
+try:
+    num1 = float(input("Enter the first value: "))
+    num2 = float(input("Enter the second value: "))
+
+    # operations
+    add, subtract, multiply, divide = arithmetic_operations(num1, num2)
+
+    #  results
+    print(f"The addition of {num1} and {num2} is: {add}")
+    print(f"The subtraction of {num1} from {num2} is: {subtract}")
+    print(f"The multiplication of {num1} and {num2} is: {multiply}")
+    print(f"The division of {num1} by {num2} is: {divide}")
+
+except ValueError:
+    print("Please enter valid numerical values.")
