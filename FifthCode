@@ -1,0 +1,14 @@
+
+phrase = "Hi-Kod Veri Bilimi Atölyesi"
+word1, word2, word3, word4 = phrase.split()
+phrase_upper = phrase.upper()
+phrase_lower = phrase.lower()
+
+# results
+print(f"Original phrase: {phrase}")
+print(f"Word 1: {word1}")
+print(f"Word 2: {word2}")
+print(f"Word 3: {word3}")
+print(f"Word 4: {word4}")
+print(f"Uppercase phrase: {phrase_upper}")
+print(f"Lowercase phrase: {phrase_lower}")
